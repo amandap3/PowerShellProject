@@ -7,7 +7,7 @@ Move-ADObject John_Smith -TargetPath Accounting
 Move-ADObject -Identity "CN=John_Smith,CN=Users,DC=Adatum,DC=com" -TargetPath "OU=Accounting,DC=Adatum,DC=com"
 
 #Give user attributes like email address, office number, which workstation user can access, department, company
-Set-ADUser John_Smith -EmailAddress jsmith@accounting.adatum.com -OfficePhone 12345670 -LogonWorkstations 'LON-CL1' #good
+Set-ADUser John_Smith -EmailAddress jsmith@accounting.adatum.com -OfficePhone 12345670 -LogonWorkstations 'LON-CL1'
 Set-ADUser John_Smith -Department "Accounting"
 Set-ADUser John_Smith -Company "Adatum"
 
