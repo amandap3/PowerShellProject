@@ -1,3 +1,4 @@
+#Search User Accounts, Disable User Accounts Inactive after 90 days, and Unlock Accounts 
 Impport-Module Active Directory
 Import-Module GroupPolicy
 
